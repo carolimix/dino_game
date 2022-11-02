@@ -5,7 +5,8 @@ class Player {
 		this.x = 0
 		this.y = 800 - this.height
 		this.gravity = 0.2
-		this.velocity = 0
+		this.velocity = 1
+		this.life = 3
 		this.score = 0
 	
     }

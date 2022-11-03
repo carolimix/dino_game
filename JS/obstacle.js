@@ -1,4 +1,3 @@
-
 class Obstacle {
     constructor(image) {
         this.asteroid = image
@@ -28,10 +27,14 @@ class Obstacle {
 
             if (game.counter < 4) {
             if (dist(obstacleX, obstacleY, playerX, playerY) < 25) {  
-                    hit.play()
+               /*  this.score += 1     */
+          /*       document.querySelector(".points").innerText = this.score */
+                hit.play()
                 this.velocity = -1
                 }}
+                
         }
+
 
     }
     

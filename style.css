@@ -1,5 +1,8 @@
 * {
-    background-image: url("backgroundspace.png")
+    font-family: 'Press Start 2P', cursive;
+    background-image: url("backgroundspace.png");
+    text-align: center;
+    
 }
 
 div {
@@ -12,3 +15,11 @@ h1 {
 }
 
 
+#reload {
+    color: white;
+}
+
+#button {
+    display: flex;
+    flex-direction: column;
+}

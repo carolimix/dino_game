@@ -9,8 +9,7 @@ class Game {
         this.obstacles = [] 
         this.counter= 0
         this.lifes = 3
-   /*      this.startMenu */
-        //this.gameOver
+  
              
         
      }    
@@ -23,16 +22,13 @@ class Game {
 	   this.dino = loadImage("./img/dino/playerimg.gif");
 	   this.asteroid = loadImage("./img/asteroide/asteroide.png");
       this.gameOver = loadImage ("./gameover.gif");
-     /*  this.startMenu = loadImage ("./img/backgroundimg.startmenu.png") */
-     /*  this.gameOver = [(textSize(200)           
-      text("YOU KILLED EARTH", 400, 100))]; */
-          
+             
          }
 
     draw() {
-       // clear()
+    
         this.background.draw()
-        //theme.play()
+        tema.play()
         this.player.draw()
             if(frameCount % 70 == 0) {
             this.obstacles.push(new Obstacle(this.asteroid))

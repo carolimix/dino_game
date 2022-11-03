@@ -15,13 +15,13 @@ class Game {
      }    
     
     preload() {
-      this.backgroundimg = loadImage("./img/backgroundimg/background100.png");
-	   this.backgroundimg2 = loadImage("./img/backgroundimg/background75.png");
-	   this.backgroundimg3 = loadImage("./img/backgroundimg/background50.png");
-	   this.backgroundimg4 = loadImage("./img/backgroundimg/background0.png");
-	   this.dino = loadImage("./img/dino/playerimg.gif");
-	   this.asteroid = loadImage("./img/asteroide/asteroide.png");
-      this.gameOver = loadImage ("./gameover.gif");
+      this.backgroundimg = loadImage("img/backgroundimg/background100.png");
+	   this.backgroundimg2 = loadImage("img/backgroundimg/background75.png");
+	   this.backgroundimg3 = loadImage("img/backgroundimg/background50.png");
+	   this.backgroundimg4 = loadImage("img/backgroundimg/background0.png");
+	   this.dino = loadImage("img/dino/playerimg.gif");
+	   this.asteroid = loadImage("img/asteroide/asteroide.png");
+      this.gameOver = loadImage ("gameover.gif");
              
          }
 

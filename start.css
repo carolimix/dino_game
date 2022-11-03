@@ -1,0 +1,12 @@
+* {
+    font-family: 'Press Start 2P', cursive;
+background-image: url("./backgroundstart.jpg");
+}
+
+
+body {
+    color: rgb(25, 241, 1);
+    text-align: center;
+    padding-top: 20%;
+}
+

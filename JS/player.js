@@ -2,16 +2,17 @@ class Player {
 	constructor() {
 	    this.width = 50
 		this.height = 50
-		this.x = 0
+		this.x = 400
 		this.y = 800 - this.height
 		this.gravity = 0.2
 		this.velocity = 1
 		this.life = 3
-		this.score = 0
+		
 	
     }
 
         draw() {
+			if (game.counter < 4) {
 			this.velocity += this.gravity
 			this.y += this.velocity
          
@@ -19,6 +20,7 @@ class Player {
 				this.y = height - this.height
 					}
 			image(game.dino, this.x, this.y, this.width, this.height)
+		}
 		}
     
 	jump() {
